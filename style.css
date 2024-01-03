@@ -1,0 +1,69 @@
+/*Selettore {
+ proprieta:valore;
+ proprieta:valore;
+} */
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.opacity{
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    width: 60%;
+    height: 50%;
+    left: 20%;
+    right: 20%;
+    padding-bottom: 4%;
+    border-radius: 15 px;
+}
+
+header{
+    text-align: center;
+    padding-top: 6%;
+    color: lime;
+}
+
+.row-lime{
+    text-align: center;
+    background-color: lime;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.monopattini{
+    color: white;
+    margin-left: 10%;
+}
+
+.orange{
+    background-color: orange;
+    height: 25px;
+    margin-left: 2%;
+    margin-right: 60%;
+    border-radius: 5px;
+}
+
+.green{
+    background-color: lime;
+    height: 25px;
+    margin-left: 2%;
+    margin-right: 30%;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: red;
+    height: 25px;
+    margin-left: 2%;
+    margin-right: 80%;
+    border-radius: 5px;
+}
+
+p, h3{
+    margin-left: 2%;
+}
